@@ -1,2 +1,2 @@
-/compose/mongoDB/mongodb
-/compose/postgres/pgdata
+compose/mongoDB/mongodb/*
+compose/postgres/pgdata/*

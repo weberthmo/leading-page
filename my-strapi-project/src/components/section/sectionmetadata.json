@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_section_sectionmetadata",
+  "info": {
+    "displayName": "sectionmetadata",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "section_id": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 30,
+      "minLength": 4,
+      "regex": "^[a-zA-Z]+([0-9-]*[a-zA-Z]+)*$"
+    },
+    "backgroud": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

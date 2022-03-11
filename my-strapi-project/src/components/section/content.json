@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_contents",
+  "info": {
+    "displayName": "content",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.sectionmetadata",
+      "required": true
+    }
+  }
+}
